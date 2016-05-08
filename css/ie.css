@@ -1,0 +1,8 @@
+nav, footer, .content-wrap{
+	display:none;
+}
+.ie{
+	color:red;
+	margin-top:100px;
+	text-align:center;
+}
