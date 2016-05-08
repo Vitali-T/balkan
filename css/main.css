@@ -860,6 +860,7 @@ footer {
 
   .lang-bar {
     font-size: 10px;
+    display:block;
     padding: 5px; }
 
   #mob-menu {
