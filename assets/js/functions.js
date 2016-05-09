@@ -8,7 +8,18 @@ $( document ).ready(function() {
 				$(this).css('background','rgba(103,120,9,1.00)').css('color', '#FFFFFF');
 			}
 		});
-	
+		
+//sticky nav-bar effect	
+
+	$(window).scroll(function(){
+	if($(this).scrollTop() > 90){
+		$('.nav-menu').addClass('nav-menu-scrolled');
+	}
+	else{
+		$('.nav-menu').removeClass('nav-menu-scrolled');
+	}
+});
+
 //career section -> switch job description
 
 $('.job').click(function(){
