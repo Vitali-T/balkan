@@ -777,7 +777,7 @@ nav {
   .nav-menu li {
     display: inline-block;
     padding: 5px 0;
-    background: rgba(43, 169, 0, 0.2);
+    background: rgba(163,213,165,1);
     border-right: 1px solid #FFFFFF;
     width: 16.65%;
     height: 30px;
@@ -798,7 +798,12 @@ nav {
   .nav-menu a:visited {
     background: #677809;
     color: #FFFFFF; }
-
+  .nav-menu-scrolled{
+	position:fixed;
+	bottom:auto;
+	top:0;
+	z-index:15;
+}
 footer {
   clear: both;
   width: 100%;
